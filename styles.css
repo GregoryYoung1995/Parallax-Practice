@@ -17,3 +17,19 @@
     padding: 40px 20px;
     border-radius: 16px;
 }
+.section:nth-child(1) {
+    background-image: url(img/1920-iceland-landscape-view-of-the-djupivogur-island.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.section:nth-child(2) {
+    background-color: skyblue;
+}
+.section:nth-child(3) {
+    background-image: url(img/1920-man-standing-near-city-window.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.section:nth-child(4) {
+    background-color: darkgoldenrod;
+}
