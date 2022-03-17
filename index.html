@@ -3,33 +3,93 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
     <title>Parallax Practice</title>
 </head>
 <body>
-    <div class = "section" role = "section">
+    <div class = "container" id="navbar">
+        <nav class="navbar navbar-expand-md navbar-light">
+            <a href="#" class="navbar-brand">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg" alt="Bootstrap 5 Logo" width="30" height="24" class="d-inline-block align-top">
+                <span style="display: none;">Parallax Practice</span>
+            </a>
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#toggleMobileMenu"
+                aria-controls="toggleMobileMenu"
+                aria-expanded="false"
+                aria-label="Toggle nvigation"
+                >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="toggleMobileMenu">
+                <ul class="navbar-nav ms-auto">
+                    <li>
+                        <a href="#" class="nav-link">Item 1</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link">Item 2</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link">Item 3</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link">Item 4</a>
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
+    </div>
+    <div class="parallax" id="section1" role = "section">
         <div class="content">
             <h1>Section 1</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore iure officiis neque iusto voluptatibus fugiat reiciendis eaque molestiae rem distinctio, ullam dicta magnam similique obcaecati quo. Esse ea molestiae exercitationem! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero obcaecati quisquam nesciunt harum minus cum illum ipsam ipsum quae quibusdam doloribus odio corrupti atque aspernatur consectetur, sit, inventore perferendis dolores?</p><br><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur quisquam quaerat harum et cupiditate officiis quibusdam quas rem natus illum. Vitae placeat a quos dicta, amet ut. Illum, asperiores laborum! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore iure officiis neque iusto voluptatibus fugiat reiciendis eaque molestiae rem distinctio, ullam dicta magnam similique obcaecati quo. Esse ea molestiae exercitationem! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim amet labore at dolores voluptate laboriosam aliquid nostrum repellendus? Quasi soluta reprehenderit quos sint maiores illum corrupti aliquid magnam quae voluptas?</p>
         </div>
     </div>
-    <div class = "section" role = "section">
+    <div class="parallax" id="section2" role = "section">
         <div class="content">
             <h1>Section 2</h1>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit magnam culpa eos unde et non officia sequi quam cum minima doloremque fugit, commodi, maiores beatae, quisquam obcaecati a deleniti? Sit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore iure officiis neque iusto voluptatibus fugiat reiciendis eaque molestiae rem distinctio, ullam dicta magnam similique obcaecati quo. Esse ea molestiae exercitationem!</p><br><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore iure officiis neque iusto voluptatibus fugiat reiciendis eaque molestiae rem distinctio, ullam dicta magnam similique obcaecati quo. Esse ea molestiae exercitationem! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero obcaecati quisquam nesciunt harum minus cum illum ipsam ipsum quae quibusdam doloribus odio corrupti atque aspernatur consectetur, sit, inventore perferendis dolores?</p>
         </div>
-    </div><div class = "section" role = "section">
+    </div><div class="parallax" id="section3" role = "section">
         <div class="content">
             <h1>Section 3</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore iure officiis neque iusto voluptatibus fugiat reiciendis eaque molestiae rem distinctio, ullam dicta magnam similique obcaecati quo. Esse ea molestiae exercitationem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam optio tenetur, sed, atque incidunt fuga dolore rerum porro itaque veniam, perspiciatis magnam maxime placeat magni corrupti nihil a ab quidem. Lorem ipsum dolor sit amet, consectetur adipisicing elit. At consequatur provident eos nostrum explicabo, quidem odio perspiciatis sequi quia id consequuntur natus corrupti possimus cum, necessitatibus iusto ratione fuga corporis?</p><br><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit magnam culpa eos unde et non officia sequi quam cum minima doloremque fugit, commodi, maiores beatae, quisquam obcaecati a deleniti? Sit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore iure officiis neque iusto voluptatibus fugiat reiciendis eaque molestiae rem distinctio, ullam dicta magnam similique obcaecati quo. Esse ea molestiae exercitationem!</p>
         </div>
-    </div><div class = "section" role = "section">
+    </div><div class="parallax" id="section4" role = "section">
         <div class="content">
             <h1>Section 4</h1>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur quisquam quaerat harum et cupiditate officiis quibusdam quas rem natus illum. Vitae placeat a quos dicta, amet ut. Illum, asperiores laborum! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore iure officiis neque iusto voluptatibus fugiat reiciendis eaque molestiae rem distinctio, ullam dicta magnam similique obcaecati quo. Esse ea molestiae exercitationem! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim amet labore at dolores voluptate laboriosam aliquid nostrum repellendus? Quasi soluta reprehenderit quos sint maiores illum corrupti aliquid magnam quae voluptas?</p><br><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore iure officiis neque iusto voluptatibus fugiat reiciendis eaque molestiae rem distinctio, ullam dicta magnam similique obcaecati quo. Esse ea molestiae exercitationem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam optio tenetur, sed, atque incidunt fuga dolore rerum porro itaque veniam, perspiciatis magnam maxime placeat magni corrupti nihil a ab quidem. Lorem ipsum dolor sit amet, consectetur adipisicing elit. At consequatur provident eos nostrum explicabo, quidem odio perspiciatis sequi quia id consequuntur natus corrupti possimus cum, necessitatibus iusto ratione fuga corporis?</p>
         </div>
     </div>
+    <footer class="bg-dark text-white pt-5 pb-4">
+        <div class="container text-center text-md-left">
+            <div class="row text-white text-center text-md-left">
+                <div class="col mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Contact Us</h3>
+                        <div class = "row text-center justify-content-center">
+                            <div class = "col-2 text-center">
+                               <a  class = "h1" style = "color: white" href="https://twitter.com/?lang=en" target="_blank"><i class="fab fa-twitter"></i></a>
+                           </div>
+                           <div class = "col-2 text-center">
+                               <a  class = "h1" style = "color: white" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                           </div>
+                           <div class = "col-2 text-center">
+                               <a  class = "h1" style = "color: white" href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                           </div>
+                       </div>
+                </div>
+                <p><br></p>
+                <a href="https://www.vecteezy.com/free-photos" class="text-white">Free Stock photos by Vecteezy</a>
+                <p><a href="https://commons.wikimedia.org/wiki/File:Bootstrap_logo.svg" class="text-white">Bootstrap</a>, Public domain, via Wikimedia Commons</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/43293f2116.js" crossorigin="anonymous"></script>
 </body>
 </html>
-<!-- <a href="https://www.vecteezy.com/free-photos">Free Stock photos by Vecteezy</a> -->
-<!-- <a href="https://www.vecteezy.com/free-photos">Free Stock photos by Vecteezy</a> -->
