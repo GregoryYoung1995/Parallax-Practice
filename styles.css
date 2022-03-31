@@ -1,0 +1,40 @@
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+.parallax {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+#jumbotron {
+    text-align: center;
+    padding: 15% 0px;
+}
+.content {
+    text-align: center;
+    width: 75%;
+    background-color: #eee;
+    padding: 40px 20px;
+    margin: 15% 0%;
+    border-radius: 16px;
+}
+#section1 {
+    background-image: url(img/1920-iceland-landscape-view-of-the-djupivogur-island.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+#section2 {
+    background-color: skyblue;
+}
+#section3 {
+    background-image: url(img/1920-man-standing-near-city-window.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+#section4 {
+    background-color: darkgoldenrod;
+}
